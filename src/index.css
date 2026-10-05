@@ -1,0 +1,63 @@
+/* GlamBook Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fdf2f8;
+  color: #1a1a2e;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-explore-button:hover:not(:disabled) {
+  filter: brightness(0.97);
+  transform: translateY(-2px);
+}
+
+.hero-explore-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.hero-explore-button:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
